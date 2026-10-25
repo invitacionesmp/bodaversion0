@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alejandro & Victoria · Nuestra boda</title>
+<meta name="description" content="Estás invitado a la boda de Alejandro y Victoria · 28 de agosto de 2027">
+<!-- Vista previa en WhatsApp: reemplaza TU-DOMINIO.com por la URL real donde subas la invitación -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alejandro & Victoria · ¡Nos casamos!">
+<meta property="og:description" content="Te invitamos a celebrar con nosotros. 28 de agosto de 2027.">
+<meta property="og:image" content="https://TU-DOMINIO.com/assets/img/miniatura.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://TU-DOMINIO.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="cor" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21s-7-4.6-9.5-9C1 9 2.5 5 6 5c2.2 0 3.7 1.3 6 3.5C14.3 6.3 15.8 5 18 5c3.5 0 5 4 3.5 7-2.5 4.4-9.5 9-9.5 9z"/></symbol>
+<symbol id="rama" viewBox="0 0 120 24"><g fill="none" stroke="#c9a77c" stroke-width="1.2"><path d="M4 12h112"/><path d="M60 12c-8-10-18-10-24-4M60 12c8-10 18-10 24-4M60 12c-8 10-18 10-24 4M60 12c8 10 18 10 24 4"/></g></symbol>
+</defs></svg>
+
+<audio id="musica" src="assets/music/musica.mp3" loop preload="none"></audio>
+<button id="btnMusica" class="musica" aria-label="Activar o pausar la música" title="Música"><span class="ico-play">♪</span><span class="ondas"><i></i><i></i><i></i></span></button>
+
+<main class="invitacion">
+
+<!-- 1. PORTADA -->
+<section class="portada">
+  <p class="sobretitulo">NUESTRA BODA</p>
+  <div class="foto foto-hero"><img src="assets/img/portada.jpg" alt="Alejandro y Victoria"><svg class="ola" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M0 60V30C80 -10 200 5 260 22c60 17 100 8 140-10v48z" fill="#f8f1ee"/><path d="M0 30C80 -10 200 5 260 22c60 17 100 8 140-10" fill="none" stroke="#c9a77c" stroke-width="1.5"/></svg></div>
+    <img class="aves" src="assets/img/decor/pajaritos.webp" alt="" aria-hidden="true">
+  <h1 class="nombres"><span>ALEJANDRO</span><em class="y"><b></b>y<b></b></em><span>VICTORIA</span></h1>
+  <p class="fecha">28 · 08 · 2027</p>
+  <p class="frase">Con ilusión esperamos<br>encontrarnos con ustedes</p>
+  <p class="mini">PARA NUESTRA BODA FALTAN:</p>
+  <div class="cuenta" id="cuenta">
+    <div><strong id="cd-d">00</strong><span>DÍAS</span></div><div><strong id="cd-h">00</strong><span>HORAS</span></div><div><strong id="cd-m">00</strong><span>MINUTOS</span></div><div><strong id="cd-s">00</strong><span>SEGUNDOS</span></div>
+  </div>
+  <div class="foto foto-manos"><img src="assets/img/manos.jpg" alt="Manos con anillos y ramo" loading="lazy"><i class="curva"></i></div>
+  <h2 class="titulo">QUERIDOS AMIGOS</h2>
+  <p class="texto">Seremos muy felices de compartir<br>este día tan especial con ustedes.<br>¡Los invitamos a nuestra boda!</p>
+  <svg class="corazon"><use href="#cor"/></svg>
+  <img class="deco flor-b" src="assets/img/decor/rosa-base.webp" alt="" aria-hidden="true">
+</section>
+
+<!-- 2. PROGRAMA -->
+<section class="programa">
+  <img class="deco rosa-p" src="assets/img/decor/rosa-izq.webp" alt="" aria-hidden="true">
+  <h2 class="titulo grande">PROGRAMA DEL DÍA</h2>
+  <svg class="rama"><use href="#rama"/></svg>
+  <ol class="linea">
+    <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M6 3h5l-.5 6a2.5 2.5 0 0 1-4 0zM6.5 12v8M4.5 20h4M14 3h5l-.5 6a2.5 2.5 0 0 1-4 0zM14.5 12v8M12.5 20h4"/></svg></span><p><b>15:00</b>Recepción de invitados<br>y brindis de bienvenida</p></li>
+    <li><span class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="14" r="5"/><circle cx="15" cy="14" r="5"/><path d="M7.5 6.5 9 9l1.5-2.5L9 4z"/></svg></span><p><b>15:30</b>Ceremonia<br>religiosa y civil</p></li>
+    <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M5 4h5l-.5 5a2.5 2.5 0 0 1-4 0zM7.5 11v7M5.5 18h4M14 7h5l-.5 5a2.5 2.5 0 0 1-4 0zM16.5 14v5M14.5 19h4"/></svg></span><p><b>16:10</b>Felicitaciones<br>y aperitivo</p></li>
+    <li><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4.5"/></svg></span><p><b>17:00</b>Banquete</p></li>
+    <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M9 18V6l9-2v12"/><circle cx="7" cy="18" r="2"/><circle cx="16" cy="16" r="2"/></svg></span><p><b>22:00</b>Baile<br>y diversión</p></li>
+    <li><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg></span><p><b>23:30</b>Cierre<br>de la velada</p></li>
+  </ol>
+  <div class="onda-sep"></div>
+  <h2 class="titulo">LUGAR DE LA CELEBRACIÓN</h2>
+  <svg class="rama chica"><use href="#rama"/></svg>
+  <p class="lugar"><span class="pin">⚲</span><span><b>Hacienda "Villa Amor"</b><br>Camino Real 123, Valle Hermoso</span></p>
+  <a class="btn" id="btnMapa" href="#" target="_blank" rel="noopener">VER EN EL MAPA</a>
+  <div class="foto foto-lugar"><img src="assets/img/lugar.jpg" alt="Lugar de la celebración" loading="lazy"><i class="curva"></i></div>
+  <h2 class="titulo">CÓDIGO DE VESTIMENTA</h2>
+  <p class="texto">Nos encantará que acompañen<br>la paleta de colores de nuestra boda</p>
+  <div class="paleta"><i style="--c:#ead3b6"></i><i style="--c:#c9a7a8"></i><i style="--c:#8e6270"></i><i style="--c:#6d7a56"></i><i style="--c:#2b2b2b"></i></div>
+</section>
+
+<!-- 3. FORMULARIO -->
+<section class="anketa">
+  <img class="deco flor-c" src="assets/img/decor/rosa.webp" alt="" aria-hidden="true">
+  <h2 class="titulo grande">CONFIRMACIÓN DE ASISTENCIA</h2>
+  <svg class="rama"><use href="#rama"/></svg>
+  <form id="formRsvp" novalidate>
+    <p class="subt">POR FAVOR, CONFIRMA<br>TU ASISTENCIA</p>
+    <label class="op"><input type="radio" name="asiste" value="Sí, con mucha alegría asistiré"><span></span>Con alegría asistiré</label>
+    <label class="op"><input type="radio" name="asiste" value="Lamentablemente no podré asistir"><span></span>Lamentablemente no podré</label>
+    <p class="subt">TU NOMBRE Y APELLIDO</p>
+    <input class="campo" type="text" id="nombre" placeholder="Escribe aquí" autocomplete="name">
+    <p class="subt">BEBIDAS</p><p class="peq">¿Qué prefieres tomar?</p>
+    <label class="op"><input type="radio" name="bebida" value="Vino (blanco / tinto)"><span></span>Vino (blanco / tinto)</label>
+    <label class="op"><input type="radio" name="bebida" value="Champaña"><span></span>Champaña</label>
+    <label class="op"><input type="radio" name="bebida" value="Sin alcohol"><span></span>Sin alcohol</label>
+    <p class="subt">TUS DESEOS</p><p class="peq">Déjanos unas palabras cariñosas</p>
+    <textarea class="campo" id="deseos" rows="4" placeholder="Escribe aquí"></textarea>
+    <p class="error" id="error" role="alert"></p>
+    <button type="submit" class="btn grande-btn">ENVIAR RESPUESTA</button>
+  </form>
+  <div class="cierre">
+  <img class="corazones" src="assets/img/decor/corazones.webp" alt="" aria-hidden="true">
+  <h2 class="titulo">CONTACTOS</h2>
+  <p class="peq">Si tienes alguna duda,<br>estamos siempre a tu disposición</p>
+  <a class="tel" href="tel:+5491112345678"><span class="pin">✆</span><span>+54 9 11 1234-5678<br>(Alejandro)</span></a>
+  <a class="tel" href="tel:+5491187654321"><span class="pin">✆</span><span>+54 9 11 8765-4321<br>(Victoria)</span></a>
+  <p class="gracias">Gracias por acompañarnos<br>en este día tan especial.</p>
+  <svg class="corazon"><use href="#cor"/></svg>
+  </div>
+</section>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="js/main.js"></script>
+</body>
+</html>

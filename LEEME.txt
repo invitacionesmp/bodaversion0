@@ -1,0 +1,19 @@
+INVITACIÓN WEB DE BODA
+=======================
+Rutas de archivos a reemplazar (mantén los mismos nombres):
+  assets/img/portada.jpg     Foto principal (vertical 3:4, ~900x1200)
+  assets/img/manos.jpg       Segunda foto (horizontal, ~900x560)
+  assets/img/lugar.jpg       Foto del lugar (horizontal, ~900x560)
+  assets/img/miniatura.jpg   Imagen al compartir por WhatsApp (1200x630, menos de 300 KB)
+  assets/img/favicon.png     Icono de la pestaña
+  assets/music/musica.mp3    Canción de fondo
+
+Datos a editar:
+  js/main.js   -> bloque CONFIG (fecha, número de WhatsApp, lugar/mapa)
+  index.html   -> nombres, programa, dirección, contactos, textos
+
+IMPORTANTE para la vista previa en WhatsApp:
+  1. Sube la carpeta a un hosting (Netlify, Vercel, GitHub Pages, tu dominio).
+  2. En index.html reemplaza TODAS las apariciones de https://TU-DOMINIO.com por tu URL real
+     (og:image y og:url deben ser enlaces absolutos).
+  3. Si cambias la miniatura y WhatsApp muestra la anterior, es caché: agrega ?v=2 al link.
